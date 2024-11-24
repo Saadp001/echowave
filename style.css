@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(istockphoto-165586706-1024x1024.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Fixes the background in place */
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    background-color: #333;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+    float: right;
+  }
+
+   /* Logo styling */
+   .nav-logo {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Navbar links */
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+
+  .nav-links li {
+    margin-left: 20px;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 12px;
+  }
+
+  .nav-links a:hover {
+    background-color: #555;
+    border-radius: 4px;
+  }
+
+  h1 {
+    color: navy;
+    font-size: 56px
+    
+  }
+  
+
+
+  .catch-line {
+    color: #333;
+    font-weight: bold;
+    font-size: 20px;
+  }
+
+  .comparison {
+    display: flex;              /* Enables flexbox */
+    gap: 20px;                  /* Space between items */
+    padding: 20px;              /* Adds padding around the container */
+    background-color: #f0f8ff;  /* Light background color */
+    margin-top: 17px;
+  }
+
+  .property {
+    flex: 1;                    /* Ensures both properties take equal space */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;     /* Optional border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;         /* Rounded corners */
+  }
+
+
+  .button-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+   cursor: pointer;
+  }
+
+  .addtocart {
+    background-color: #ff7f50 ;
+  }
+
+  .addtocart:hover {
+    background-color: red;
+  }
+
+  .shopnow {
+    background-color: #007bff ;
+
+  }
+
+  .shopnow:hover {
+    background-color: red;
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: space-between; /* Spaces images evenly */
+    align-items: center;            /* Aligns images vertically */
+    gap: 10px; 
+    flex: 1;                    /* Ensures both properties take equal space */
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;     /* Optional border */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;                       /* Optional gap between images */
+  }
+  
+  .image-container img {
+    width: 100%;                    /* Ensures images scale to fit */
+    max-width: 30%;                 /* Prevents overflow */
+    height: auto;                   /* Maintains aspect ratio */
+    object-fit: cover;              /* Ensures images fill the space */
+  }
+  
